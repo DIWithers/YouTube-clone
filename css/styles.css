@@ -125,4 +125,34 @@ text-align: right;
 .more-video-item {
 	display:inline-block
 	width: 24%;
+
 }
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+	.more-video-item {
+		width: 48%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.more-video-item {
+		width: 90%;
+		margin: auto;
+	}
+}
+
+.more-video-item img {
+	border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
